@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ExiledProject (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ExiledProject Win64 Debug Build",
+			"program": "C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE5\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE5\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExiledProject (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ExiledProject Win64 DebugGame Build",
+			"program": "C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE5\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE5\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExiledProject (Development)",
+			"request": "launch",
+			"preLaunchTask": "ExiledProject Win64 Development Build",
+			"program": "C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE5\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE5\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExiledProject (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ExiledProject Win64 Shipping Build",
+			"program": "C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE5\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE5\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExiledProject (Test)",
+			"request": "launch",
+			"preLaunchTask": "ExiledProject Win64 Test Build",
+			"program": "C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE5\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE5\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExiledProjectEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ExiledProjectEditor Win64 Debug Build",
+			"program": "C:\\UE5\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\ExiledProject.uproject"
+			],
+			"cwd": "C:\\UE5\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE5\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExiledProjectEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ExiledProjectEditor Win64 DebugGame Build",
+			"program": "C:\\UE5\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\ExiledProject.uproject"
+			],
+			"cwd": "C:\\UE5\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE5\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ExiledProjectEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ExiledProjectEditor Win64 Development Build",
+			"program": "C:\\UE5\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\ExiledProject.uproject"
+			],
+			"cwd": "C:\\UE5\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE5\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\UE5\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\ExiledProject.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\UE5\\UE_4.27"
+		}
+	]
+}

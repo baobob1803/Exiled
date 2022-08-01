@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ExiledProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "Landmass",
@@ -30,5 +40,12 @@
 				"Android"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"AllDesktop",
+		"MacNoEditor",
+		"WindowsNoEditor",
+		"LinuxAArch64NoEditor",
+		"LinuxNoEditor"
 	]
 }

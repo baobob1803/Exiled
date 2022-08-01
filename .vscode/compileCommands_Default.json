@@ -1,0 +1,27 @@
+[
+	{
+		"file": "C:\\\\Users\\\\Flatheet\\\\Documents\\\\Unreal Projects\\\\Exiled\\\\Source\\\\ExiledProject\\\\ExiledProject.Build.cs",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\.vscode\\compileCommands_Default\\ExiledProject.226.rsp\"",
+		"directory": "C:\\UE5\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Flatheet\\\\Documents\\\\Unreal Projects\\\\Exiled\\\\Source\\\\ExiledProject\\\\ExiledProject.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\.vscode\\compileCommands_Default\\ExiledProject.226.rsp\"",
+		"directory": "C:\\UE5\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Flatheet\\\\Documents\\\\Unreal Projects\\\\Exiled\\\\Source\\\\ExiledProject\\\\ExiledProject.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\.vscode\\compileCommands_Default\\ExiledProject.226.rsp\"",
+		"directory": "C:\\UE5\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Flatheet\\\\Documents\\\\Unreal Projects\\\\Exiled\\\\Source\\\\ExiledProject\\\\MyPlayerController.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\.vscode\\compileCommands_Default\\ExiledProject.226.rsp\"",
+		"directory": "C:\\UE5\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Flatheet\\\\Documents\\\\Unreal Projects\\\\Exiled\\\\Source\\\\ExiledProject\\\\MyPlayerController.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Flatheet\\Documents\\Unreal Projects\\Exiled\\.vscode\\compileCommands_Default\\ExiledProject.226.rsp\"",
+		"directory": "C:\\UE5\\UE_4.27\\Engine\\Source"
+	}
+]
