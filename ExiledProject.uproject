@@ -40,12 +40,5 @@
 				"Android"
 			]
 		}
-	],
-	"TargetPlatforms": [
-		"AllDesktop",
-		"MacNoEditor",
-		"WindowsNoEditor",
-		"LinuxAArch64NoEditor",
-		"LinuxNoEditor"
 	]
 }
